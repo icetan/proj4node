@@ -1,6 +1,6 @@
 # Proj4node
 
-*Synchronous Proj4js slimmed down for Node.js*
+*Synchronous [Proj4js](http://trac.osgeo.org/proj4js/) slimmed down for Node.js*
 
 ## Usage
 
