@@ -14,11 +14,12 @@ var proj4node = require('proj4node'),
 console.log(p);
 ```
 
-## Syncing with Proj4js source
+## Syncing with Proj4js SVN repository
 
 ```
-$ git svn clone -s http://svn.osgeo.org/metacrs/proj4js/
-$ cd proj4js
-$ git remote add --track master origin https://github.com/icetan/proj4node.git
-$ git rebase
+$ git clone https://github.com/icetan/proj4node.git
+$ cd proj4node
+$ ./connect-proj4js-repo.sh
 ```
+
+Then read instructions from output.
