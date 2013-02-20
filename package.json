@@ -20,7 +20,7 @@
   },
   "main": "lib/proj4js.js",
   "files": [
-    "lib/proj4.js",
+    "lib/proj4js.js",
     "lib/projCode",
     "LICENSE",
     "README.md"
