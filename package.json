@@ -1,0 +1,24 @@
+{
+  "name": "proj4node",
+  "version": "0.0.1",
+  "description": "Proj4js ported for Node.js without the asynchronous definition loading.",
+  "author": "Christopher Fredén <c.freden@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/icetan/proj4node.git"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://raw.github.com/icetan/proj4node/master/LICENSE"
+  }],
+  "engines": {
+    "node": "~0.8.14"
+  },
+  "main": "lib/proj4js.js",
+  "files": [
+    "lib/proj4.js",
+    "lib/projCode",
+    "LICENSE",
+    "README.md"
+  ]
+}
