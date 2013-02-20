@@ -20,6 +20,7 @@
   },
   "main": "lib/proj4node.js",
   "files": [
+    "lib/proj4node.js",
     "lib/proj4js.js",
     "lib/projCode",
     "LICENSE",
