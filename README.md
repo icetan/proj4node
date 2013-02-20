@@ -1,6 +1,6 @@
 # Proj4node
 
-Synchronous Proj4js for Node.js... huh?
+*Synchronous Proj4js slimmed down for Node.js*
 
 ## Usage
 
@@ -23,3 +23,9 @@ $ ./connect-proj4js-repo.sh
 ```
 
 Then read instructions from output.
+
+## Attributions
+
+Important to note, I have only removed functionality from the original Proj4js
+project. All the hard stuff (algorithms and parsing) is solely thanks to the
+authors of Proj4js.
