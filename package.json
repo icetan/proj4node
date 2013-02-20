@@ -18,9 +18,9 @@
   "engines": {
     "node": "~0.8.14"
   },
-  "main": "lib/proj4js.js",
+  "main": "lib/proj4node.js",
   "files": [
-    "lib/proj4.js",
+    "lib/proj4js.js",
     "lib/projCode",
     "LICENSE",
     "README.md"
