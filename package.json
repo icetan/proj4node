@@ -1,6 +1,6 @@
 {
   "name": "proj4node",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Proj4js ported for Node.js without the asynchronous definition loading.",
   "author": "Christopher Fredén <c.freden@gmail.com>",
   "contributors": [
@@ -18,6 +18,9 @@
   "engines": {
     "node": "~0.8.14"
   },
+  "devDependencies": {
+    "jasmine-node": "~1.2.3"
+  },
   "main": "lib/proj4node.js",
   "files": [
     "lib/proj4node.js",
@@ -25,5 +28,8 @@
     "lib/projCode",
     "LICENSE",
     "README.md"
-  ]
+  ],
+  "scripts": {
+    "test": "node_modules/.bin/jasmine-node test"
+  }
 }
