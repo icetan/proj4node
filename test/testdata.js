@@ -1,3 +1,4 @@
+var Proj4js = module.exports = {defs:{}};
 // a set of points in map XY and Lon/Lat that are supposed to correspond between
 // forward and invers transforms
 Proj4js.defs["EPSG:54003"] = "+proj=mill +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +R_A +ellps=WGS84 +datum=WGS84 +units=m +no_defs";
