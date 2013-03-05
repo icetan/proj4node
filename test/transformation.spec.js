@@ -1,4 +1,4 @@
-var proj4node = require('../lib/proj4node'),
+var proj4node = require('../'),
     WGS84 = proj4node.WGS84,
     Point = proj4node.Point,
     Proj = proj4node.Proj,
