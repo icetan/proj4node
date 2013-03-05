@@ -1,4 +1,4 @@
-var proj4node = require('../lib/proj4node'),
+var proj4node = require('../'),
     Proj = proj4node.Proj,
 
     wkts = [

@@ -8,7 +8,7 @@ Convert a WGS884 coordinate to SWEREF99 TM.
 
 ```javascript
 var proj4node = require('proj4node'),
-    sweref = new proj4node.Proj('+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs'),
+    sweref = proj4node('+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs'),
     p = sweref.transform(proj4node.WGS84, {x:11.901, y:57.689});
 
 console.log(p);
