@@ -23,7 +23,7 @@
   },
   "files": [
     "index.js",
-    "lib/proj4node.js",
+    "lib/proj4js.js",
     "lib/projCode",
     "LICENSE",
     "README.md"
